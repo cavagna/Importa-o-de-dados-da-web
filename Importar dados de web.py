@@ -13,8 +13,9 @@ from datetime import date, timedelta, datetime
 
 
 # Conectando no driver para acesso a pagina Web:
+## Driver do browser que será utilizado deve ser baixado.
 browser = webdriver.Edge(
-    executable_path="C:/Users/lucas/Downloads/edgedriver_win64/msedgedriver.exe")
+    executable_path="Caminho do driver! /msedgedriver.exe")
 
 browser.get(
     "https://app.akna.com.br/site/montatela.php?t=acesse&header=n&footer=n&lang=pt-br")
